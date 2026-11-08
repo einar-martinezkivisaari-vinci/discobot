@@ -7,3 +7,5 @@ Commandes a executer avant de lancer
     source ./.venv/bin/activate
     pip install -U discord.py
     pip install -U python-dotenv
+
+attention parfois le premier essait peut echouer, juste reessayer apres un moment
