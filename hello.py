@@ -15,6 +15,7 @@ isnotpro = re.compile(r'\bmauvais|\bpas\b|\bhais\b|\bdeteste\b|\barrete\b', re.I
 
 
 async def changegrudges(culprit, message):
+    #is going to have issues when used more than for demonstrations, it's just a proof of concept
     await grudges_book.edit(content=f'{grudges_book.content}\n{culprit} said "{message}"')
     
 
